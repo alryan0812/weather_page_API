@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "./custom-base-styles.css";
+
+@import 'tailwindcss/components';
+@import "./custom-components-styles.css";
+
+@import 'tailwindcss/utilities';
+@import "./custom-utilities-styles.css";
+
+@layer Base {
+    #root {
+        @apply some-styles;
+    }
+}
